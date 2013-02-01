@@ -2,6 +2,8 @@
 
 namespace Deft\MrzParser;
 
+use Deft\MrzParser\Document\TravelDocumentInterface;
+
 class MrzParser implements MrzParserInterface
 {
 

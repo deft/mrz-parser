@@ -4,7 +4,7 @@ namespace Deft\MrzParser\Tests;
 
 use Deft\MrzParser\MrzParser;
 use Deft\MrzParser\MrzParserInterface;
-use Deft\MrzParser\Document\Gender;
+use Deft\MrzParser\Document\Sex;
 use Deft\MrzParser\Document\TravelDocumentType;
 
 class ParserTest extends \PHPUnit_Framework_TestCase
@@ -33,7 +33,7 @@ class ParserTest extends \PHPUnit_Framework_TestCase
         $this->assertInstanceOf('DateTime', $document->getDateOfBirth());
         $this->assertEquals('06-08-1969', $document->getDateOfBirth()->format('d-m-Y'));
         $this->assertEquals('L898902C', $document->getDocumentNumber());
-        $this->assertEquals(Gender::FEMALE, $document->getSex());
+        $this->assertEquals(Sex::FEMALE, $document->getSex());
         $this->assertEquals('ZE184226B', $document->getPersonalNumber());
     }
 

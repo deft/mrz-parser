@@ -2,7 +2,7 @@
 
 namespace Deft\MrzParser\Document;
 
-class Gender
+class Sex
 {
     private function __construct() { }
 

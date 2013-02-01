@@ -3,9 +3,9 @@
 namespace Deft\MrzParser\Parser;
 
 use Deft\MrzParser\Document\TravelDocument;
+use Deft\MrzParser\Document\TravelDocumentInterface;
 use Deft\MrzParser\Document\TravelDocumentType;
 use Deft\MrzParser\Exception\ParseException;
-use Deft\MrzParser\TravelDocumentInterface;
 
 /**
  * Parser of "travel document type 1" (td1) documents. Below a reference to the format:
