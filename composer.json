@@ -1,0 +1,24 @@
+{
+    "name": "deft/mrz-parser",
+    "description": "Library to parse machine readable zones (MRZ) of passports and ID cards",
+    "keywords": ["mrz", "parsing", "passport", "identity document"],
+    "authors": [
+        {
+            "name": "Jan Kramer",
+            "email": "jan@jankramer.eu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-0": {
+            "Deft": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
